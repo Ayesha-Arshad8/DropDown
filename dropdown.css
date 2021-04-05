@@ -1,0 +1,36 @@
+ .Dropdown{
+background-color: rgb(99, 99, 204);
+border: rgb(206, 155, 165);
+position: relative;
+display: inline-block ;
+ }
+.B{
+    background-color: rgb(62, 62, 121);
+    font-size: medium;
+}
+ 
+ 
+ .B:Hover  {
+ background-color: rgb(133, 148, 148);
+      }
+
+.Container {
+  display: none;
+  position: absolute;
+  background-color: dimgrey;
+  min-width: 30px;
+  z-index: 1;
+
+}
+.Container a{
+    display:block;
+    color: darkslateblue;
+    padding-left: 0px;
+    padding-right: 20px;
+    font-size: medium;
+}
+.Dropdown:hover .Container {display: block;}
+.Container a:hover {background :gold ;}
+.Dropdown :hover .B {
+    background-color: green;
+}
